@@ -1,0 +1,19 @@
+rf_env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.ipynb_checkpoints
+
+# ignore all datasets by default
+dataset_*/
+
+# ignore weights and results
+weights_*/
+test_results*/
+
+test_iq/
+test_spectograms_v2/
+*.iq
+*.jpg

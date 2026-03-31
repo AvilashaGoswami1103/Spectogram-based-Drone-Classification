@@ -11,12 +11,12 @@ import csv
 # ══════════════════════════════════════════════════════════════════
 MODEL        = 'resnet18'   # ← change to 'resnet18' for ResNet-18
 
-WEIGHTS_PATH = r"C:\Users\Avilasha\Desktop\Online-data\New_Attempt\weights_resnet18\best_model.pth"
+WEIGHTS_PATH = r"C:\Users\Avilasha\Desktop\Image-based Drone Classification\Online-data\New_Attempt\weights_resnet18\best_model.pth"
 # For ResNet-18 use:
 # WEIGHTS_PATH = r"C:\Users\Avilasha\Desktop\Online-data\New_Attempt\weights_resnet18\best_model.pth"
 
-TEST_DIR     = r"C:\Users\Avilasha\Desktop\Online-data\New_Attempt\test_spectograms_v2"
-RESULTS_DIR  = r"C:\Users\Avilasha\Desktop\Online-data\New_Attempt\test_results_new"
+TEST_DIR     = r"C:\Users\Avilasha\Desktop\Image-based Drone Classification\Online-data\New_Attempt\test_spectograms_v2"
+RESULTS_DIR  = r"C:\Users\Avilasha\Desktop\Image-based Drone Classification\Online-data\New_Attempt\test_results_new"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 # ══════════════════════════════════════════════════════════════════
